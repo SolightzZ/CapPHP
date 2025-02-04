@@ -42,7 +42,7 @@ $result = $conn->query($sql);
     <div class="container-fluid">
         <div class="navbar-header">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">Home</a></li>
+            <li><a href="admin.php">Home Admin</a></li>
                 <li><a href="add_cat.php">Add Cat</a></li>
                 <li><a href="imageList.php" target="_blank">IMG</a></li>
             </ul>

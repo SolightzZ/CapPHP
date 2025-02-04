@@ -69,9 +69,7 @@ $conn->close();
         <div class="navbar-header">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="add_cat.php">Add Cat</a></li>
-                <li><a href="visible.php">Edit</a></li>
-                <li><a href="imageList.php" target="_blank">IMG</a></li>
+                <li><a href="admin.php">login</a></li>
             </ul>
         </div>
     </div>
@@ -98,8 +96,6 @@ $conn->close();
                 echo "<p><strong>คำอธิบาย:</strong> " . $row['description'] . "</p>";
                 echo "<p><strong>ลักษณะทั่วไป:</strong> " . $row['characteristics'] . "</p>";
                 echo "<p><strong>คำแนะนำการเลี้ยงดู:</strong> " . $row['care_instructions'] . "</p>";
-                echo "<a href='edit_cat.php?id=" . $row['id'] . "'>แก้ไข (Edit)</a> | ";
-                echo "<a href='delete_cat.php?id=" . $row['id'] . "'>ลบ (Delete)</a>";
                 echo "</div>";
                 echo "</div>";
             }

@@ -56,7 +56,7 @@ if ($conn->connect_error) {
     <div class="container-fluid">
         <div class="navbar-header">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="admin.php">Home Admin</a></li>
                 <li><a href="add_cat.php">Add Cat</a></li>
                 <li><a href="imageList.php">IMG</a></li>
             </ul>

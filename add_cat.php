@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
     $stmt->bind_param("ssssssi", $name_th, $name_en, $description, $characteristics, $care_instructions, $image_url, $is_visible);
 
     if ($stmt->execute()) {
-        echo "<script>alert('เพิ่มข้อมูลสำเร็จ'); window.location.href = 'index.php';</script>";
+        echo "<script>alert('เพิ่มข้อมูลสำเร็จ'); window.location.href = 'admin.php';</script>";
     } else {
         echo "ข้อผิดพลาด: " . $stmt->error;
     }
@@ -68,7 +68,7 @@ if (isset($_POST['submit'])) {
     <div class="container-fluid">
         <div class="navbar-header">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">Home</a></li>
+            <li><a href="admin.php">Home Admin</a></li>
                 <li><a href="add_cat.php">Add Cat</a></li>
                 <li><a href="imageList.php" target="_blank">IMG</a></li>
             </ul>
