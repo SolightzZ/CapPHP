@@ -1,6 +1,6 @@
 # ระบบจัดการข้อมูลสายพันธุ์แมว  
 
-![GitHub all releases](https://img.shields.io/github/downloads/SolightzZ/Cat_PHP//total)
+![GitHub all releases](https://img.shields.io/github/downloads/SolightzZ/Cat_PHP/\/total)
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Cat_PHP/)
 
 ## คำอธิบาย  
