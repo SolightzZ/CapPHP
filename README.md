@@ -1,5 +1,8 @@
 # ระบบจัดการข้อมูลสายพันธุ์แมว  
 
+![GitHub all releases](https://img.shields.io/github/downloads/SolightzZ/Device-Info-Add-on/total)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Device-Info-Add-on)
+
 ## คำอธิบาย  
 โปรเจกต์นี้เป็นระบบจัดการข้อมูลสายพันธุ์แมว โดยมีระบบ Back-end สำหรับผู้ดูแล (Admin) และระบบ Front-end สำหรับผู้ใช้ทั่วไป  
 
