@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
             WHERE id = $id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "<script>alert('แก้ไขข้อมูลสำเร็จ'); window.location.href = 'index.php';</script>";
+        echo "<script>alert('แก้ไขข้อมูลสำเร็จ'); window.location.href = 'admin.php';</script>";
     } else {
         echo "Error: " . $conn->error;
     }
